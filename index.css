@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonbon&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +9,7 @@
 
 body {
     height: 100vh;
+    background-color: #343a40;
 }
 
 main {
@@ -65,4 +69,65 @@ aside li i {
 .activeLink {
     color: #80ed99;
 }
+
+.heading {
+    padding: 20px 10px;
+    font-size: 2.5rem;
+    color: #80ed99;
+}
+
+.products {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, calc(34% - 10px));
+    grid-template-rows: 100px repeat(3, calc(50% - 50px) calc(50% - 50px));
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.products .heading {
+    grid-column: 1/span 3;
+}
+
+.products .product {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(0, 0, 0, 0.437);
+    border-radius: 5px;
+    margin: 20px;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    transition-duration: 0.25s;
+}
+
+.products .product i {
+    font-size: 3rem;
+    color: #80ed99;
+}
+
+.products .product .product-icon {
+    padding: 0px 50px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.product h2 {
+    color: #80ed99;
+}
+
+.product:hover h2, .product:hover i {
+    color: #ee2e20;
+}
+
+
+
+
+
+
+
+
+
 
