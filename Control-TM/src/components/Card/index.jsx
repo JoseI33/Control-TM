@@ -1,11 +1,13 @@
+import './index.css'
 import PropTypes from 'prop-types'
 
-const Card = ({title, description}) => {
-    console.log('Props recibido en card:', {title, description})
+const Card = ({title, description, imageURL}) => {
+
     return (
-        <div className='p-6 border-2 border-gray-300 rounded-lg shadow-lg bg-white hover:bg-blue-50 transition-all'>
-            <h2 className='text-xl font-bold mb-2 text-blue-600'>{title}</h2>
-            <p className='text-gray-700'>{description}</p>
+        <div className='card'>
+            <img className='' src={imageURL} alt=''/>
+            <h2 className='card-title'>{title}</h2>
+            <p className='card-description'>{description}</p>
         </div>
     )
 }
