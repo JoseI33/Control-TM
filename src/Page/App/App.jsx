@@ -5,7 +5,6 @@ import Footer from "../../Components/Layout/footer.jsx";
 import Home from "../Home";
 import Horometro from "../Horometros";
 import Torneria from "../Torneria";
-import CardsDetail from "../CardsDetail";
 import Notfound from "../Notfound";
 import Pendientes from "../Pendientes";
 import Campaña from "../Campaña";
@@ -35,7 +34,6 @@ const AppRoutes = () => {
         {path: '/pendientes', element: <Pendientes/>},
         {path: '/campaña', element: <Campaña/>},
         {path: '/maquinarias', element: <Inventario/>},
-        {path: '/torneria/:id', element: <CardsDetail/>},
         {path: '/login', element: <Login/>},
         {path:'*', element: <Notfound />},
       ])
