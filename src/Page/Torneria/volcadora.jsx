@@ -1,4 +1,4 @@
-import SearchSpare from "../../components/Layout/search"
+import SearchSpare from "../../components/layout/search"
 
 const Volcadoras = () => {
     const handleSearch = (query) => {

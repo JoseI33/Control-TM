@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import './index.css';
-import Layout from "../../components/Layout";
+import Layout from "../../components/layout";
 import { Button } from 'react-bootstrap';
 
 const Torneria = () => {

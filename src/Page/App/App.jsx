@@ -1,7 +1,7 @@
 import { BrowserRouter, useRoutes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"
-import NavBar from "../../Components/Navbar";
-import Footer from "../../Components/Layout/footer.jsx";
+import NavBar from "../../components/navbar";
+import Footer from "../../components/Layout/footer.jsx";
 import Home from "../Home";
 import Horometro from "../Horometros";
 import Torneria from "../Torneria";
