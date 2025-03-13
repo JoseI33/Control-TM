@@ -1,4 +1,4 @@
-import Layout from "../../components/layout";
+import Layout from "../../components/layout/index.jsx";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
